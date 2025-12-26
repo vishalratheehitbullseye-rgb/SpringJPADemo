@@ -1,4 +1,4 @@
-package com.example.model;
+package com.example.SpringJPADemo.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -16,11 +16,11 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 public class Student {
     @Id @GeneratedValue(strategy = GenerationType.AUTO)
-    int id;
-    int age;
+    Integer id;
+    Integer age;
     String name;
     String branch;
     Double gpa;
-    boolean isPlaced;
+    Boolean isPlaced;
 
 }

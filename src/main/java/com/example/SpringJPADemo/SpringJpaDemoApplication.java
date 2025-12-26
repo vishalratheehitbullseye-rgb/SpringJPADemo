@@ -1,6 +1,6 @@
 package com.example.SpringJPADemo;
 
-import com.example.controller.StudentController;
+import com.example.SpringJPADemo.controller.StudentController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -16,7 +16,6 @@ public class SpringJpaDemoApplication {
 
 		StudentController controller =
 				context.getBean(StudentController.class);
-
 
 	}
 
